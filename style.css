@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   }
+html{
+    font-family: "Reddit Mono", monospace;
+    letter-spacing: 0.15rem;
+    background-color: #efefef;
+    border: double black 4px;
+    /* position: fixed; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: double;
+}
+.font{
+    font-size: 150%;
+}  
