@@ -8,18 +8,58 @@ html{
     letter-spacing: 0.15rem;
     background-color: #efefef;
     border: double black 4px;
-    /* position: fixed; */
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
     text-align: center;
+    margin: 10px;
     padding: 10px;
 }
 h1{
     display: block;
-    padding: 10px;
     text-transform: uppercase;
     text-decoration: double;
+    padding: 30px;
+    margin: 5px auto 5px auto;    
 }
-.font{
-    font-size: 150%;
-}  
+.fontone{
+    font-size: 160%;
+}
+.fontthree{
+    font-size: 60%;
+}
+.fonttwo{
+    font-size: 40%;
+}
+li{
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: 0px 3px;
+}
+ul{
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+    word-spacing: 6rem;
+    border-top: double 4px black;
+    border-bottom: double 4px black;
+    padding: 10px;
+    
+}
+li:hover{
+    background-color: #0b5434;
+    color: #efefef;
+}
+img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline;
+    width: 275px; height: 200px;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    text-transform: capitalize; 
+    margin-left: 16%;
+    margin-right: 16%;  
+    color: #823f3f; 
+}
